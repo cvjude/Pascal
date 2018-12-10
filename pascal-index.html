@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jude's Test</title>
+	<link rel="stylesheet" type="text/css" href="css/pascal-style.css">
+</head>
+<body>
+	<header id = "the-header">
+		<div class = container>
+			<h1>Pascal's triangle generator</h1>
+		</div>
+	</header>
+	<main id = "main">
+		<section id = "section1">
+			<div class = "container">
+				<h3>This application generates a pascal's triangle for an input number</h3>
+			</div>
+		</section>
+		<div class = "container">
+			<form class = "my-form" onsubmit = "return false">
+				<div class = "form-group">
+					<label>Please enter a number below</label>
+					<input placeholder= "Enter integer" type = "number" id = "n_val"></br>
+					<button class = "button" onclick = "formvalues()">Enter</button>
+					<div id = "answer_text"></div>
+					<div id = "answer"></div>
+				</div>
+			</form>
+		</div>
+	</main>
+	<footer id = "footer1">
+		<p>Copy right &copy; Jude Chinoso</p>
+	</footer>
+	<script type = "text/javascript" src = "pascal.js"></script>
+</body>
+</html>
